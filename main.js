@@ -9,6 +9,8 @@ function num_click(target) {
     }else {
         if (result.innerHTML =="0"){
             result.innerHTML = target_value
+        }else if(result.innerHTML =="00"){
+            result.innerHTML = target_value
         }else{
             result.innerHTML += target_value
         }
